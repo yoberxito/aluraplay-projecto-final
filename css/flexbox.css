@@ -1,7 +1,22 @@
 .cabecera__container{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    position: fixed;
     top: 0;
+}
+.cabecera__buscar__item{
+    display: none;
+}
+
+.rodapie__container{
+    
+}
+
+
+@media(min-width:840px){
+    .cabecera__buscar__item{
+        display: block;
+    }
 
 }
