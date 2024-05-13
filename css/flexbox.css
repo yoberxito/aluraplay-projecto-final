@@ -10,6 +10,8 @@
 }
 
 .rodapie__container{
+    display: flex;
+    flex-flow: column wrap;
     
 }
 
@@ -17,6 +19,9 @@
 @media(min-width:840px){
     .cabecera__buscar__item{
         display: block;
+    }
+    .rodapie__container{
+        justify-content: space-between;
     }
 
 }
